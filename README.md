@@ -1,60 +1,25 @@
-# p5.js Template
+# Stock Exchange Visualization
 
-This is a README file that can be used to describe and document your assignment.
+## Dataset Information
+-> What dataset did you use? The dataset used is the Stock Exchange dataset provided by the course materials.
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+-> Why did you choose this dataset? I chose this dataset because it provides historical stock data that includes key metrics like high, low, and close prices. These metrics are well-suited for visualizing trends over time and understanding market behavior.
 
----
----
+-> Which fields/features/parameters of the dataset did you use? The fields used in the visualization are:
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+Date: Represents the date of the stock entry.
+High: The highest price of the stock on that date.
+Low: The lowest price of the stock on that date.
+Close: The closing price of the stock on that date.
 
-**bold text**
+->How many data points did you use? The dataset contains thousands of records spanning several decades. The exact number depends on the dataset provided but includes records from 1986 to 2021.
 
-*italicized text*
+## Visualization Details
+->What are you visualizing? How do the shapes, colors, or movement relate to the data values?
 
-~~strikethrough text~~
+The visualization plots the stock's high and low prices using vertical lines for each date, representing the range of price fluctuations.
+The closing prices are plotted as red dots to highlight the final price of the stock for the day.
+The x-axis represents the date, and the y-axis represents the stock price.
+The choice of red for the closing prices emphasizes significant market activity.
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+-> Include drawings and images of reference visualizations.
